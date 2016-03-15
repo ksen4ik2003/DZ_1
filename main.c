@@ -4,10 +4,10 @@
 
 int main(int argc, char * argv[])
 {
-        int *pos = (int *) malloc(2);
+        int *pos = (int *) malloc(2 * sizeof(int));
         pos[0] = 0;
         pos[1] = 0;
-    	int *neg = (int *) malloc(2);
+    	int *neg = (int *) malloc(2 * sizeof(int));
     	neg[0] = 0;
         neg[1] = 0;
         int lenp = 2, lenn = 2;
